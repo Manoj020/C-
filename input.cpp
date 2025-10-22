@@ -7,7 +7,7 @@ int main(){
     std::string name; // variable name
     int age;
     std::cout<<"Enter your Name:";
-    std::getline(std::cin>>std::ws, name);// why ws (white space in the input buffer when we move lines from one place to another )
+    std::getline(std::cin>>std::ws, name);// why ws (white space in the input buffer when we move lines from one place to another)
     std::cout<<"Enter your age:";
     std::cin>>age;
     std::cout << "Hello "<<name<<std::endl;
