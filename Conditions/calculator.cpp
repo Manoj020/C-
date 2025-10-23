@@ -35,7 +35,8 @@ int main()
         }
         break;
     default:
-        std::cout << "Invalid Operator";
+        std::cout << "Invalid Operator" << std::endl;
+        is_valid = false;
         break;
     }
     if (is_valid)
