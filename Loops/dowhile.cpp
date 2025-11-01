@@ -5,7 +5,7 @@ int main(){
     do{
         std::cout<<"Enter a number: ";
         std::cin>>number;
-        std::cout<<number; // do this first after until the condition is met
+        std::cout<<number<<std::endl; // do this first after until the condition is met
     }while(number<0);
     return 0;
 }
