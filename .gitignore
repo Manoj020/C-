@@ -1,0 +1,64 @@
+# ============================
+# System / OS files
+# ============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ============================
+# Editor / IDE files
+# ============================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ============================
+# Temporary / log files
+# ============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.out
+
+# ============================
+# Compiled / build files (all languages)
+# ============================
+# C / C++ / Rust / Go / Java / etc.
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.class
+*.jar
+*.exe
+/build/
+/bin/
+/Debug/
+/Release/
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# ============================
+# Node / JavaScript
+# ============================
+node_modules/
+dist/
+build/
