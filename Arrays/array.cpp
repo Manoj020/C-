@@ -1,7 +1,7 @@
 #include<iostream>
 
 int main(){
-    std::string names[4];
+    std::string names[5];
     names[0] = "Manoj";
     names[1] = "Jag";
     names[2] = "SK";
